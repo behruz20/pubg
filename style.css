@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url('https://imag.malavida.com/mvimgbig/download-fs/pubg-mobile-20855-9.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+a{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+button{
+  border: none;
+  margin: 550px 0 0 1034px;
+  width: 80px;
+  height: 70px;
+  background-color: rgb(254, 115, 115);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@keyframes animation {
+  0% {opacity: 1; top: 0;}
+  12% {opacity: 0;}
+  20% {opacity: 1;}
+  32% {opacity: 0;}
+  40% {opacity: 1;}
+  52% {opacity: 0;}
+  60% {opacity: 1;}
+  72% {opacity: 0;}
+  80% {opacity: 1;}
+  92% {opacity: 0;}
+}

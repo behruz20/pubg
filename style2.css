@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_662ef24619148e7821286352_662ef2562d418844dcf70bb6/scale_1200');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+}
+
+form{
+    background-color: rgba(0, 0, 0, 0.205);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    width: 50%;
+    /* margin: 0 0 0 700px; */
+}
+
+
+.form-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.inputs-container {
+    margin-bottom: 15px;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 10px;
+    width: 95%;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 10px 0 0 20px;
+}
+
+input[type="text"]::placeholder, input[type="password"]::placeholder {
+    color: #888;
+}
+
+.login-button {
+    width: 50%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 190px 10px;
+}
+
+.login-button:hover {
+    background-color: #45a049;
+}
