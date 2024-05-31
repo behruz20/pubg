@@ -66,3 +66,83 @@ input[type="text"]::placeholder, input[type="password"]::placeholder {
 .login-button:hover {
     background-color: #45a049;
 }
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_662ef24619148e7821286352_662ef2562d418844dcf70bb6/scale_1200');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.inputs-container {
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    form {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    form {
+        width: 100%;
+        padding: 10px;
+    }
+
+
+    input, button {
+        padding: 8px;
+        margin: 0;
+    }
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url('https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_662ef24619148e7821286352_662ef2562d418844dcf70bb6/scale_1200');
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+    }
+}
